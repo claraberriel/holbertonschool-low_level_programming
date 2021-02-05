@@ -6,15 +6,22 @@
 */
 
 int main(void)
+
 {
-for (int v = 48; v < 58; v++)
+int v;
+
+for (v = 48; v < 58; v++)
 {
 putchar (v);
 }
-for (int f = 97; f < 103; f++)
+
+int f;
+
+for (f = 97; f < 103; f++)
 {
 putchar (f);
 }
+
 putchar (10);
 return (0);
 }
