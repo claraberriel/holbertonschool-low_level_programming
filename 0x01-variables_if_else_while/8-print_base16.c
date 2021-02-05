@@ -8,18 +8,18 @@
 int main(void)
 
 {
-int v;
+int v = 48;
 
-for (v = 48; v < 58; v++)
+while (v < 58)
 {
-putchar (v);
+putchar (v++);
 }
 
-int f;
+int f = 97;
 
-for (f = 97; f < 103; f++)
+while (f < 103)
 {
-putchar (f);
+putchar (f++);
 }
 
 putchar (10);
