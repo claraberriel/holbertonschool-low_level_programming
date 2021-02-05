@@ -8,20 +8,9 @@
 int main(void)
 
 {
-int v = 48;
-
-while (v < 58)
-{
-putchar (v++);
-}
-
-int f = 97;
-
-while (f < 103)
-{
-putchar (f++);
-}
-
-putchar (10);
+char *hex = "0123456789abcdef";
+while (*hex)
+putchar(*(hex++));
+putchar ('\n');
 return (0);
 }
