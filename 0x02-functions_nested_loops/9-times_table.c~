@@ -1,0 +1,20 @@
+#include "holberton.h"
+
+/**
+ * times_table - tabla del 9
+ * Return: value
+ */
+
+void times_table(void)
+{
+int i = 0, j;
+while (i < 10)
+{
+j = 0;
+ while (j < 10)
+{
+_putchar(2 );
+}
+_putchar('\n');
+i++
+}
