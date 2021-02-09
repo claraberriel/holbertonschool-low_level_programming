@@ -1,0 +1,19 @@
+#include "holberton.h"
+
+/*
+ *int _islower - whatever
+ * Return: 1 if lower, else 0
+ */
+
+int _islower(int c)
+{
+
+if (c < 123 && c > 96)
+{
+return (0);
+}
+else
+{
+  return (1);
+}
+}
