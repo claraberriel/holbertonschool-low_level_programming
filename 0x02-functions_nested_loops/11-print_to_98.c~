@@ -1,0 +1,20 @@
+#include "holberton.h"
+#include <stdio.h>
+
+/**
+ * print_to_98 - All natural numbers up to 98
+ * @n: start point
+ * Return: 0 if correct
+ */
+
+void print_to_98(int n)
+{
+for (n < 99; n++)
+{
+printf('%d', n);
+printf(',');
+printf(' ');
+}
+printf('\n')
+return (0);
+}
