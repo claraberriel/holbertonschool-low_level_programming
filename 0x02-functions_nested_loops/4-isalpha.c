@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-/*
+/**
  * _isalpha - compiler is not gonna like this description anyway
  * Return: 1 if letter, else 0
  */
