@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* swap_int(int *a, int *b) - Swaps values
+* swap_int - Swaps values
 * @a: inherited from main
 * @b: ""
 *
