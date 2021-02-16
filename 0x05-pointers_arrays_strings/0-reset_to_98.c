@@ -1,8 +1,11 @@
 #include "holberton.h"
 
 //**
-*
+* void reset_to_98 - updates value it point to 98
 *
 */
 
-int
+void reset_to_98(int *n)
+{
+    int *n = 98;
+}
