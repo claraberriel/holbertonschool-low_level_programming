@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-//**
+/**
 * void reset_to_98 - updates value it point to 98
 *
 */
