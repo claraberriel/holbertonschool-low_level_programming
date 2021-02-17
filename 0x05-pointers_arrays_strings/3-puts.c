@@ -3,6 +3,7 @@
 
 /**
  * _puts - outputs a line of stream
+ * @str: inherited from main
  * Return: 0
  */
 
