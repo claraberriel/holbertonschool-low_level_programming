@@ -21,11 +21,3 @@ _putchar(s[j]);
 }
 _putchar('\n');
 }
-
-
-// Write a function that prints a string, 
-//in reverse, followed by a new line.
-
-//output
-//vomisA caasI - meht fo kcal eht raef I 
-//.sretupmoc raef ton od I
