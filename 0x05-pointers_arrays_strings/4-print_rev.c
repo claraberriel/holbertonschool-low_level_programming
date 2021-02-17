@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * print_rev -
- * @str: inherited from main
+ * print_rev - print backwards
+ * @s: string
  * Return: 0 if correct
  */
 
@@ -15,7 +15,7 @@ for (i = 0; s[i] != '\0'; i++)
 
 }
 
-for (j = i -1; j >= 0; j--)
+for (j = i - 1; j >= 0; j--)
 {
 _putchar(s[j]);
 }
