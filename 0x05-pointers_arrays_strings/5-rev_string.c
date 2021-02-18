@@ -16,7 +16,7 @@ while (*(s + counter) != '\0')
 *(aux + counter) = *(s + counter);
 counter++;
 }
-while (counter > 0)
+while (counter >= 0)
 {
 *(s + counter) = *(aux + marker);
 marker++;
