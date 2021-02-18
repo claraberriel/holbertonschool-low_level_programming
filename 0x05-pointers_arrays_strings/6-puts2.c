@@ -1,19 +1,17 @@
-//Write a function that prints every other character of a string, starting with the first character, 
-//output: 02468
-
 #include "holberton.h"
 
 /**
- * puts2 - prints every other 
+ * puts2 - prints every other
  * @str: string
  */
 
 void puts2(char *str)
 {
 int n;
+
 for (n = 0; str[n] != '\0'; n++)
 {
-    if (n % 2 == 0)
+if (n % 2 == 0)
 {
 _putchar(str[n]);
 }
