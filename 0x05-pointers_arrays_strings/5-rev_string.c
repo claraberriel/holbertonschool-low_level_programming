@@ -10,13 +10,13 @@
 void rev_string(char *s)
 {
 int counter = 0, marker = 0;
-char aux[999];
-while (*(s + counter))
+char aux[99];
+while (*s[counter] != '\0')
 {
 *(aux + counter) = *(s + counter);
 counter++;
 }
-while (counter >= 0)
+while (counter > 0)
 {
 *(s + counter) = *(aux + marker);
 marker++;
