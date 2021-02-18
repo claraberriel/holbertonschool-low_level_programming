@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include "2-strlen.c"
 
 /**
  * puts_half - half of a string
