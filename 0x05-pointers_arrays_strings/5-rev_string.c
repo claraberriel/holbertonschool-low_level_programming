@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 
 /**
@@ -8,14 +9,18 @@
 
 void rev_string(char *s)
 {
-int i, j;
-for (i = 0; s[i] != '\0'; i++)
+int counter = 0, marker = 0;
+char aux[99]
+while (*s[counter] != '\0') // while (*(s + contador)) ... 
 {
-_putchar(s[i]);
+*(aux + counter) = *(s + counter);
+counter++;
 }
-for (j = i - 1; j >= 0; j--)
+while (counter > 0)
 {
-_putchar(s[j]);
+*(s + counter) = *(aux + marker);
+marker++;
+counter--;
 }
-_putchar('\n');
+
 }
