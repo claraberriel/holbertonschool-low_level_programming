@@ -1,7 +1,10 @@
-// Write a function that prints half of a string, 
-//followed by a new line.
-
 #include "holberton.h"
+
+/**
+ * puts_half - half of a string
+ * @str: pointer to string
+ * Return: half of string
+ */
 
 void puts_half(char *str)
 {
