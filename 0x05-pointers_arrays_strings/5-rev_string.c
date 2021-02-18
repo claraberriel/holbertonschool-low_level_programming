@@ -10,7 +10,7 @@
 void rev_string(char *s)
 {
 int counter = 0, marker = 0;
-char aux[99];
+char aux[999];
 while (*(s + counter))
 {
 *(aux + counter) = *(s + counter);
