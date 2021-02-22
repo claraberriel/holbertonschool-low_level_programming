@@ -18,7 +18,7 @@ int count = 0;
 while (dest[count] != '\0' && count < n)
 {
 dest[count] = src[count];
-++count;
+count++;
 }
 
 /*
