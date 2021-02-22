@@ -10,7 +10,7 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-int count = 0, j, n;
+int count = 0, j;
 /*
  * stores the length of the destination string on the count variable
 */
