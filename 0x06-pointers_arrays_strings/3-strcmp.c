@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - Compare 2 strings
- * @src: source string = s2 in main
- * @dest: destination string = s1 in main
+ * @s1: string
+ * @s2: string
  * Return: difference
  */
 
@@ -11,7 +11,7 @@ int _strcmp(char *s1, char *s2)
 {
 int count;
 count = 0;
-/* 
+/*
 * while equal count
 */
 while (s1[count] == s2[count] && s1[count] != '\0')
@@ -19,6 +19,6 @@ while (s1[count] == s2[count] && s1[count] != '\0')
 count++;
 }
 
-return(s1[count] - s2[count]);
+return (s1[count] - s2[count]);
 
 }
