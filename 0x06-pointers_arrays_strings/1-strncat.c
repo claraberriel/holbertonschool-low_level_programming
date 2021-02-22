@@ -1,4 +1,5 @@
-/* Write a function that concatenates two strings.
+/* 
+* Write a function that concatenates two strings.
 * The _strncat function is similar to the _strcat function,
 * except that
 * it will use at most n bytes from src; and
