@@ -25,7 +25,11 @@ count++;
 /*
 * terminates string
 */
+while (count < n)
+{
 dest[count] = '\0';
+count++;
+}
 
 return (dest);
 }
