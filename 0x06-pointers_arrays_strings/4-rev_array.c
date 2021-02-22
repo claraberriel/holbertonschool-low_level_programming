@@ -7,24 +7,14 @@
 
 void reverse_array(int *a, int n)
 {
-int count = 0, end, begin;
-
-/*
-* calculate string lenght
-*/
-while (a[count] != '\0')
-{
-count++;
-}
-
-end = count - 1;
+int temp = 0, end = n - 1, begin;
 
 /*
 * reverse string
 */
-for (begin = 0; begin < count; begin++)
+for (begin = 0; begin < temp; begin++)
 {
-n[begin] = a[end];
+temp[begin] = a[end];
 end--;
 }
 
