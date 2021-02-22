@@ -31,6 +31,6 @@ dest[count] = src[j];
 */
 dest[count] = '\0';
 
-return (0);
+return (dest);
 
 }
