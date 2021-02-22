@@ -20,14 +20,12 @@ while (dest[count] != '\0')
 }
 
 /*
- * concatenates source string to destination string
+ * concatenates n chars of source string to destination string
 */
-if(j = n)
-{
 for (j = 0; src[j] != '\0'; ++j, ++count)
 {
+if (j <= n)
 dest[count] = src[j];
-}
 }
 
 /*
