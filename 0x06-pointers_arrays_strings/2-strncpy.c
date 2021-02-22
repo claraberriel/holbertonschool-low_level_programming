@@ -10,18 +10,21 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
+int count = 0;
 /*
-* copies src string to dest string
+ * stores the length (n) of the destination string on the count variable
+ * and copies src string to dest string
 */
-for (n = 0; src[n] != '\0'; n++)
+while (dest[count] != '\0' && count < n)
 {
-src[n] = dest[n];
+++count;
+dest[count] = src[count];
 }
 
 /*
-* terminates the destination string
+* terminates string
 */
-dest[n] = '\0';
+dest[count] = '\0';
 
 return (dest);
 }
