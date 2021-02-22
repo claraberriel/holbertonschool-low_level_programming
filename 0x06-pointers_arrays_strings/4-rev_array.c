@@ -16,7 +16,7 @@ for (begin = 0; begin < temp; begin++)
 {
 temp = a[end];
 a[end] = a[begin];
-a[begin] = temp
+a[begin] = temp;
 end--;
 }
 }
