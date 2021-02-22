@@ -1,20 +1,24 @@
-/** Write a function that compares two strings.
- * Your function should work exactly like strcmp
- * 
- * gcc -Wall -pedantic -Werror -Wextra 3-main.c 3-strcmp.c -o 3-strcmp
- * 
- * Output:
- * 
- * -15
- * 15
- * 0
- */
-
 #include "holberton.h"
 
 /**
- * 
- * 
+ * _strcmp - Compare 2 strings
+ * @src: source string = s2 in main
+ * @dest: destination string = s1 in main
+ * Return: difference
  */
 
 int _strcmp(char *s1, char *s2)
+{
+int count;
+count = 0;
+/* 
+* while equal count
+*/
+while (s1[count] == s2[count] && s1[count] != '\0')
+{
+count++;
+}
+
+return(s1[count] - s2[count]);
+
+}
