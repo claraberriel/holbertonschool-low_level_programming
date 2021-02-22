@@ -27,7 +27,7 @@ dest[count] = src[j];
 }
 
 /*
- * terminates the destination string
+* terminates the destination string
 */
 dest[count] = '\0';
 
