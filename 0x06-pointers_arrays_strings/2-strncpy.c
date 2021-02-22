@@ -16,7 +16,7 @@ count = 0;
  * stores the length (n) of the destination string on the count variable
  * and copies src string to dest string
 */
-while (dest[count] != '\0' && count < n)
+while (src[count] != '\0' && count < n)
 {
 dest[count] = src[count];
 count++;
