@@ -21,7 +21,7 @@ src[1] = dest[i];
 /*
 * terminates the destination string
 */
-dest[count] = '\0';
+dest[i] = '\0';
 
 return (dest);
 }
