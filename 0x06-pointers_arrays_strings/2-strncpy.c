@@ -13,15 +13,15 @@ char *_strncpy(char *dest, char *src, int n)
 /*
 * copies src string to dest string
 */
-for (i = 0; src[i] != '\0'; i++)
+for (n = 0; src[n] != '\0'; n++)
 {
-src[1] = dest[i];
+src[n] = dest[n];
 }
 
 /*
 * terminates the destination string
 */
-dest[i] = '\0';
+dest[n] = '\0';
 
 return (dest);
 }
