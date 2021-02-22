@@ -10,7 +10,7 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-int count = 0, j;
+int count = 0, j, n;
 /*
  * stores the length of the destination string on the count variable
 */
@@ -22,9 +22,12 @@ while (dest[count] != '\0')
 /*
  * concatenates source string to destination string
 */
-for (j = n; ++count)
+if (j = n)
+{
+for (j = 0; src[j] != '\0'; ++j, ++count)
 {
 dest[count] = src[j];
+}
 }
 
 /*
