@@ -22,7 +22,7 @@ while (dest[count] != '\0')
 /*
  * concatenates source string to destination string
 */
-for (j = 0; j <= n; ++j, ++count)
+for (j = n; ++count)
 {
 dest[count] = src[j];
 }
