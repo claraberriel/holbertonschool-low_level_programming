@@ -24,7 +24,7 @@ while (dest[count] != '\0')
 */
 for (j = 0; src[j] != '\0'; ++j, ++count)
 {
-if (j <= n)
+if (j < n)
 dest[count] = src[j];
 }
 
