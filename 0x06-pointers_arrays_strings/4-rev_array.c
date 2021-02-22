@@ -28,5 +28,5 @@ n[begin] = a[end];
 end--;
 }
 
-return (); //not 0 
+return (a);
 }
