@@ -14,9 +14,9 @@ int temp = 0, end = n - 1, begin;
 */
 for (begin = 0; begin < temp; begin++)
 {
-temp[begin] = a[end];
+temp = a[end];
+a[end] = a[begin];
+a[begin] = temp
 end--;
 }
-
-return (a);
 }
