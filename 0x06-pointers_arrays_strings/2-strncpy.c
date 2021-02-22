@@ -18,8 +18,8 @@ count = 0;
 */
 while (dest[count] != '\0' && count < n)
 {
-count++;
 dest[count] = src[count];
+count++;
 }
 
 /*
