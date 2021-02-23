@@ -28,7 +28,7 @@ str[i] -= 32;
 * increase iterator
 */
 i++;
-s
+
 }
 
 return (str);
