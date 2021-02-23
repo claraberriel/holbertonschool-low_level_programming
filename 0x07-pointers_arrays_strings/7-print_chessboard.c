@@ -3,7 +3,7 @@
 
 /**
  * print_chessboard - check the code for Holberton School students.
- * @a:array of 8
+ * @a: array of 8
  * _putchar - prints
  * Return: Always 0.
  */
@@ -16,8 +16,8 @@ void print_chessboard(char (*a)[8])
 	{
 		for (c = 0; c < 8; c++)
 		{
-			_putchar(a[r][c]);
+			putchar(a[r][c]);
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
