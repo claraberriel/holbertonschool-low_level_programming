@@ -20,9 +20,13 @@ i++;
 /*
 * check previous char and ASCII values for lowercase chars
 */
-while (prev == ' ' || prev == '\t' || prev == '\0' || prev == ',' | prev == ';' | prev == '.' | prev == '!' | prev == '?' | prev == '"' | prev == '(' | prev == ')' | prev == '{' | prev == '}')
+while (str[i] >= 'a' && str[i] <= 'z')
 {
-if (str[i] >= 'a' && str[i] <= 'z')
+
+if (prev == ' ' || prev == '\t' || prev == '\0' || prev == ',' || prev == ';' || prev == '.' )
+str[i] -= 32;
+
+if (| prev == '!' | prev == '?' | prev == '"' | prev == '(' | prev == ')' | prev == '{' | prev == '}')
 str[i] -= 32;
 }
 
