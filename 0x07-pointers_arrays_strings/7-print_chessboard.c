@@ -4,7 +4,7 @@
 /**
  * print_chessboard - check the code for Holberton School students.
  * @a:array of 8
- * _putchar: prints
+ * _putchar - prints
  * Return: Always 0.
  */
 
