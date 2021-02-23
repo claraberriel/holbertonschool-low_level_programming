@@ -13,7 +13,8 @@ int i, prev = str[i] - 1;
 /*
 * iterates the sting
 */
-while (str[i]) != '\0'){
+while (str[i] != '\0')
+{
 i++;
 
 /*
