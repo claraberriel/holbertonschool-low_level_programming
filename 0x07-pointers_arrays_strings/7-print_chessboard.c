@@ -1,9 +1,8 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
  * print_chessboard
- * @a:array of 8
+ * @a: array of 8
  * Return: Always 0.
  */
 
