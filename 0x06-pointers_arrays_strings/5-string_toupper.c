@@ -11,6 +11,7 @@
 
 /**
  * string_toupper - changes lowercase chars to upper
+ * @c: char string
  * Return: c
  */
 
