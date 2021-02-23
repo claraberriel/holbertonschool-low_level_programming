@@ -1,8 +1,8 @@
 /*
 * Write a function that changes all lowercase to upper
-* The value of a in ASCII is 97, 
+* The value of a in ASCII is 97,
 * if we subtract 32 it becomes 65 which is ASCII value of A.
-* All lowercase characters ASCII value is from 97 to 122 
+* All lowercase characters ASCII value is from 97 to 122
 * and if we subtract 32 in each lowercase character 
 * only then it will become uppercase character
 */
@@ -11,7 +11,7 @@
 
 /**
  * string_toupper - changes lowercase chars to upper
- * Return: 
+ * Return: c
  */
 
 char *string_toupper(char *c)
@@ -34,7 +34,7 @@ c[i] -= 32;
 }
 
 /*
-increase iterator variable
+* increase iterator variable
 */
 i++;
 }
