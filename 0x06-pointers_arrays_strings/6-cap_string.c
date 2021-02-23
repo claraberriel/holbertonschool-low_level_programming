@@ -15,10 +15,9 @@ int i = 0, prev = str[i] - 1;
 */
 while (str[i] != '\0')
 {
-i++;
 
 /*
-* check previous char and ASCII values for lowercase chars
+* check previous char and ASCII values for lowercase chars and converts to upper
 */
 while (str[i] >= 'a' && str[i] <= 'z')
 {
@@ -30,7 +29,11 @@ str[i] -= 32;
 if (prev == '!' || prev == '?' || prev == '"' || prev == '(')
 str[i] -= 32;
 }
-
+/*
+* increase iterator
+*/
+i++;
 }
+
 return (str);
 }
