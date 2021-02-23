@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strchr - function that gets the length of a prefix substring.
+ * _strspn - function that gets the length of a prefix substring.
  * @s: string
  * @accept: number of bytes
  * Return: the number of bytes in the initial segment of s
