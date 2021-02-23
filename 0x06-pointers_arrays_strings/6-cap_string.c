@@ -13,8 +13,7 @@ int i, prev = str[i] - 1;
 /*
 * iterates the sting
 */
-while (str[i]) != '\0')
-{
+while (str[i]) != '\0'){
 i++;
 
 /*
@@ -27,7 +26,7 @@ if (prev == ' ' || prev == '\t' || prev == '\0' || prev == ',')
 str[i] -= 32;
 if (prev == ';' || prev == '.' || prev == ')' || prev == '{' || prev == '}')
 str[i] -= 32;
-if (prev == '!' || prev == '?' || prev == '"' || prev == '(' )
+if (prev == '!' || prev == '?' || prev == '"' || prev == '(')
 str[i] -= 32;
 }
 
