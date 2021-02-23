@@ -10,7 +10,6 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-
  /*
  * Typecast src and dest addresses to (char *)
  */
@@ -20,6 +19,7 @@ char *cdest = (char *)dest;
 /*
 * Copy contents of src[] to dest[]
 */
+unsigned int i;
 for (int i = 0; i < n; i++)
 cdest[i] = csrc[i];
 
