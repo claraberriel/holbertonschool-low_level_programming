@@ -17,8 +17,8 @@ while (str[i] != '\0')
 {
 
 /*
-* check previous char 
-* and ASCII values for lowercase chars 
+* check previous char
+* and ASCII values for lowercase chars
 * and converts to upper
 */
 while (str[i] >= 'a' && str[i] <= 'z')
