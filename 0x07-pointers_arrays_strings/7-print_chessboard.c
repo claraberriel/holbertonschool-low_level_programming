@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_chessboard
+ * print_chessboard - prints chess board
  * @a: array of 8
  * Return: Always 0.
  */
