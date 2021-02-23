@@ -1,7 +1,7 @@
 #include "holberton.h"
 
-/*
-* _memcpy - copy a block of data from a src to a dest address
+/**
+* _memcpy - Copy a block of data from a src to a dest address
 * @dest: destination address
 * @src: source adress
 */
