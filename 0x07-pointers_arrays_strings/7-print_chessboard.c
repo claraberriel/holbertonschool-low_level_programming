@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_chessboard - check the code for Holberton School students.
- * @a: array of 8
+ * print_chessboard
+ * @a:array of 8
  * Return: Always 0.
  */
 
