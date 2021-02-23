@@ -3,7 +3,7 @@
 * The value of a in ASCII is 97,
 * if we subtract 32 it becomes 65 which is ASCII value of A.
 * All lowercase characters ASCII value is from 97 to 122
-* and if we subtract 32 in each lowercase character 
+* and if we subtract 32 in each lowercase character
 * only then it will become uppercase character
 */
 
