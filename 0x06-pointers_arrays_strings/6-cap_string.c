@@ -8,7 +8,7 @@
 
 char *cap_string(char *str)
 {
-int i, prev = str[i] - 1;
+int i = 0, prev = str[i] - 1;
 
 /*
 * iterates the sting
