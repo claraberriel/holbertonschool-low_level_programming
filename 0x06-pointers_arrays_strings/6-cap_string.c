@@ -11,12 +11,6 @@ char *cap_string(char *str)
 int i = 0, prev = str[i] - 1;
 
 /*
-* iterates the sting
-*/
-while (str[i] != '\0')
-{
-
-/*
 * check previous char
 * and ASCII values for lowercase chars
 * and converts to upper
@@ -29,12 +23,12 @@ if (prev == ';' || prev == '.' || prev == ')' || prev == '{' || prev == '}')
 str[i] -= 32;
 if (prev == '!' || prev == '?' || prev == '"' || prev == '(')
 str[i] -= 32;
-}
 
 /*
 * increase iterator
 */
 i++;
+s
 }
 
 return (str);
