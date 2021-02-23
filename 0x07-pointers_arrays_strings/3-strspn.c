@@ -5,7 +5,7 @@
  * _strchr - function that gets the length of a prefix substring.
  * @s: string
  * @accept: number of bytes
- * Return: the number of bytes in the initial segment of s 
+ * Return: the number of bytes in the initial segment of s
  * which consist only of bytes from accept
  */
 
