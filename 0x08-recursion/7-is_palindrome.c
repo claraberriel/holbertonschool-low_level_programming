@@ -17,7 +17,10 @@ int is_palindrome(char *s)
 
 /**
  * palindrome - Function
- * Retunr: 0
+ * @s: string
+ * @start: int
+ * @end: int
+ * Return: 0
  */
 
 

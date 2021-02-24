@@ -16,8 +16,6 @@ int is_prime_number(int n)
 
 /**
  * prime - Helper function
- * @n: var
- * @b: var
  * Return: 1 if prime, 0 if not
  */
 
