@@ -2,7 +2,6 @@
 
 /**
  * _sqrt_recursion - function that returns the natural square root of a number.
- * helper - helper function
  * @n: numbert to square root
  * Return: 0
  */
