@@ -23,5 +23,5 @@ int palindrome(char *s, int start, int end)
 	if (start >= end)
 		return (1);
 
-	return (0);	
+	return(0);
 }
