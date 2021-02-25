@@ -17,6 +17,8 @@ int is_prime_number(int n)
 /**
  * prime - Helper function
  * Return: 1 if prime, 0 if not
+ * @n: int
+ * @b: int
  */
 
 int prime(int n, int b)
