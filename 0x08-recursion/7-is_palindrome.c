@@ -5,6 +5,7 @@
  * is_palindrome - check if string is palindrome
  * @s: string
  * Return: palindrome
+ * _strlen_recursion - Length of string
  */
 
 int is_palindrome(char *s)
