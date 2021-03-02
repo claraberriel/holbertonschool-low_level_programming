@@ -14,11 +14,13 @@ char *_strdup(char *str)
 
 char *str2;
 char *temp;
+char *temp1;
 unsigned int len = _strlen(str);
 
 if (str == NULL)
 return (NULL);
 
+temp1 = str;
 str2 = malloc(sizeof(char) * (len + 1));
 
 if (str2 == NULL)
@@ -33,6 +35,7 @@ while (*str != '\0')
 ++temp;
 }
 *temp = '\0';
+str = temp;
 return (str2);
 }
 
