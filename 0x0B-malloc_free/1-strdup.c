@@ -13,29 +13,23 @@ char *_strdup(char *str)
 {
 
 char *str2;
-char *temp;
-char *temp1;
-unsigned int len = _strlen(str);
+unsigned int len, contador = 0;
 
 if (str == NULL)
 return (NULL);
 
-temp1 = str;
+len = _strlen(str);
 str2 = malloc(sizeof(char) * (len + 1));
 
 if (str2 == NULL)
 return (NULL);
 
-temp = str2;
-
-while (*str != '\0')
+while (*(str + contador) != '\0')
 {
-*temp = *str;
-++str;
-++temp;
+*(str2 + contador) = *(str + contador);
+contador++;
 }
-*temp = '\0';
-str = temp;
+*(str2 + contador) = '\0';
 return (str2);
 }
 
