@@ -19,7 +19,7 @@ unsigned int len = _strlen(str);
 if (str == NULL)
 return (NULL);
 
-str2 = malloc((sizeof(char) * len) + 1);
+str2 = malloc(sizeof(char) * (len + 1));
 
 if (str2 == NULL)
 return (NULL);
