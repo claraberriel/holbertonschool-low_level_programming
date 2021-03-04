@@ -12,50 +12,23 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-//	*_strcat(char *s1, char *s2);
+	char *sth;
+	char *ptr;
 
-	int len = 0;
-	while (s2[len] != '\0')
-	{
-		++len;
-	}
+	if (s1 == NULL)
+		s1 = "";
 
-	if (n >= len)
-		char *sth = char *s2;
+	if (s2 == NULL)
+		s2 = "";
 
-}
+	if (n >= strlen(s2))
+		sth = s2;
 
-/**
- *  _strcat - concatenates two strings
- * @src: source string = s2 in main
- * @dest: destination string = s1 in main
- * Return: pointer to dest
- */
+	if (n < len)
+		sth = s2[n];
 
-char *_strcat(char *dest, char *src)
-{
-	int count = 0, j;
-/*
- * stores the length of the destination string on the count variable
- */
-	while (dest[count] != '\0')
-	{
-		++count;
-	}
+	//  	strcat(char *s1, char *sth);
+	ptr = malloc(sizeof(_strlen(char *s1) + 1) + sizeof(_strlen(char *sth) + 1))
 
-/*
- * concatenates source string to destination string
- */
-	for (j = 0; src[j] != '\0'; ++j, ++count)
-	{
-		dest[count] = src[j];
-	}
-
-/*
- * terminates the destination string
- */
-	dest[count] = '\0';
-
-	return (dest);
-
+// cpy to concat so original str are not modified
 }
