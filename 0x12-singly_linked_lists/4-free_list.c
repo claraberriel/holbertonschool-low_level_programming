@@ -2,7 +2,7 @@
 
 /**
  * free_list - deallocates momery of list
- * @head: pointer to first element of the linked list 
+ * @head: pointer to first element of the linked list
  * Return: nothing
  */
 
