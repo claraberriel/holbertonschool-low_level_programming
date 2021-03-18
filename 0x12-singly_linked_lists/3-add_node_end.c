@@ -2,21 +2,20 @@
 #include <stdio.h>
 
 /**
- * _strlen_recursion - print a string in reverse
- * @s: string
- * Return: len
+ * _strlen - length of a string
+ * @s: pointer to string
+ * Return: length of string
  */
 
-int _strlen_recursion(char *s)
+int _strlen(const char *s)
 {
-	int len = 0;
+	int str = 0;
 
-	if (*s == '\0')
-		return (0);
-
-	len = (_strlen_recursion(s + 1) + 1);
-
-	return (len);
+	while (s[str] != '\0')
+	{
+	str++;
+	}
+	return (str);
 }
 
 /**
@@ -46,7 +45,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (new->str == NULL)
 		free(new);
 
-	new->len = _strlen_recursion(str);
+	new->len = _strlen(str);
 	
 	new->next = NULL;
 
