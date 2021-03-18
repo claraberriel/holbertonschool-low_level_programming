@@ -49,7 +49,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	
 	new->next = NULL;
 
-	if (aux)
+	if (aux != NULL)
 	{
 		while (aux->next != NULL)
 			aux = aux->next;
