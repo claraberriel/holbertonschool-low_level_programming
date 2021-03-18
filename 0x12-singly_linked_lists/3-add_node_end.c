@@ -19,13 +19,13 @@ int _strlen(const char *s)
 }
 
 /**
- * add_node -  adds a new node at the beginning of a list
+ * add_node_end -  adds a new node at the beginning of a list
  * @head: pointer to first element of the list
  * @str: string
  * Return: the address of the new element, or NULL if it failed
  */
 
-list_t *add_node(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 
 	list_t *new, *aux;
