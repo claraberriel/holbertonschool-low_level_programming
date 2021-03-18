@@ -2,20 +2,21 @@
 #include <stdio.h>
 
 /**
- * _strlen - length of a string
- * @s: pointer to string
- * Return: length of string
+ * _strlen_recursion - print a string in reverse
+ * @s: string
+ * Return: len
  */
 
-int _strlen(const char *s)
+int _strlen_recursion(char *s)
 {
-	int str = 0;
+	int len = 0;
 
-	while (s[str] != '\0')
-	{
-	str++;
-	}
-	return (str);
+	if (*s == '\0')
+		return (0);
+
+	len = (_strlen_recursion(s + 1) + 1);
+
+	return (len);
 }
 
 /**
