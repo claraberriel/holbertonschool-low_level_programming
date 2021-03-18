@@ -7,7 +7,7 @@
  * Return: length of string
  */
 
-int _strlen(char *s)
+int _strlen(const char *s)
 {
 	int str = 0;
 
@@ -32,12 +32,12 @@ list_t *add_node(list_t **head, const char *str)
 
 	if (head == NULL)
 		return (0);
-	
+
 	new = malloc(sizeof(list_t));
 
 	if (new == NULL)
-			return (NULL);
-	
+		return (NULL);
+
 	new->str = strdup(str);
 
 	if (new->str == NULL)
