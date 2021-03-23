@@ -3,7 +3,7 @@
 /**
  * insert_nodeint_at_index - adds a node at a idx position
  * @head: pointer to list
- * @idx: position where new node will be added 
+ * @idx: position where new node will be added
  * @n: new node value
  * Return: address of new node or NULL if fails
  */
@@ -44,7 +44,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	else
 		return (NULL);
-	
+
 	new->n = n;
 	new->next = aux->next;
 	aux->next = new;
