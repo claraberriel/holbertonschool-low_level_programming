@@ -1,5 +1,4 @@
 #include "lists.h"
-#include "4-free_listint.c"
 
 /**
  * free_listint2 - deallocates memory for a list and sets head to NULL
