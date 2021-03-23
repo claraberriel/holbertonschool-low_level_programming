@@ -23,7 +23,7 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	}
 
 
-	else if (aux == NULL)
+	if (aux == NULL)
 		return (NULL);
 
 	return (aux);
