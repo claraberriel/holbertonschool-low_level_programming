@@ -17,7 +17,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int filedes, len, btyes_written;
+	int filedes, len;
 
 	/* Return condition (B) */
 	if (filename == NULL)
@@ -34,12 +34,12 @@ int create_file(const char *filename, char *text_content)
 
 	len = strlen(text_content);
 	/* write(int fildes, const void *buf, size_t nbyte); */
-	btyes_written = write(filedes, text_content, len);
+	write(filedes, text_content, len);
 
 	close(filedes);
 
 	/* Return condition (A) */
-	if (filedes == -1 || btyes_written == -1 || close(filedes) == -1)
+	if (filedes == -1)
 		return (-1);
 
 	return (1);
