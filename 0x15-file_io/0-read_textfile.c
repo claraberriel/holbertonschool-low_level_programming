@@ -23,7 +23,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	/* Return condition (A) */
 	if (filedesc == -1)
 		return (0);
-	
+
 	/* Return condition (B) */
 	if (filename == NULL)
 		return (0);
@@ -33,7 +33,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	/* write(int fildes, const void *buf, size_t nbyte); */
 	bytes_written = write(STDOUT_FILENO, buf, bytes_read);
-	
+
 	/* Return conditons (C) */
 	if (bytes_read != bytes_written || bytes_written == -1)
 		return (0);
